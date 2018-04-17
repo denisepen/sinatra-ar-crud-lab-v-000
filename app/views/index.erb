@@ -6,7 +6,7 @@
   </head>
   <body>
     <% @posts.each do |post| %>
-     <h2>Name: <%= post.name %></h2>
+     <h2><%= post.id %>. Name: <%= post.name %></h2>
       <h4>Content: <%= post.content %></h4>
       <% end %>
 
